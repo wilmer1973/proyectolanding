@@ -1,0 +1,170 @@
+/*body {
+    background: rgb(14, 182, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    background: rgb(14, 182, 171);
+    /*display: flex;*/
+}
+
+.logo {
+    height: 100%;
+    width: 25px;
+   /*display: flex;*/
+  font-size: 2rem;  
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+text-shadow: 1px 1px 0 rgb(150, 150, 150),
+               1px 2px 0 rgb(150, 150, 150),
+               1px 3px 0 rgb(150, 150, 150),
+               1px 4px 0 rgb(150, 150, 150),
+               1px 5px 0 rgb(150, 150, 150),
+               1px 6px 0 rgb(150, 150, 150),
+               1px 7px 0 rgb(150, 150, 150),
+               1px 8px 0 rgb(150, 150, 150),
+               1px 9px 0 rgb(150, 150, 150),
+               1px 10px 0 rgb(150, 150, 150),
+               1px 11px 0 rgb(150, 150, 150),
+               1px 12px 0 rgb(150, 150, 150),
+               1px 13px 0 rgb(150, 150, 150),
+               1px 14px 0 rgb(150, 150, 150),
+               1px 15px 0 rgb(150, 150, 150),
+               1px 15px 30px rgb(57 56 56);
+               
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: justify;
+  
+}
+
+.encabezado_principal{
+    background: rgb(19, 15, 18);
+}
+
+.contenedor_logo {
+    padding-top: 20px;
+    /*border:5px solid darkblue;*/
+    min-width: 50vw;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+section{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(179, 243, 239);
+    justify-content: space-evenly;
+    /*justify-content: center;*/
+}
+
+
+
+.contenedor_header{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 750px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /*border:5px solid rgb(139, 0, 19);*/
+    min-width: 100vw;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #054c6b;
+    font-size: 22px;
+    justify-content: center;
+    text-align: justify;
+}
+p{
+  font-size: 20px;  
+  color: rgb(3, 6, 48);
+  font-family: 'Roboto Condensed', sans-serif;
+  justify-content: center;
+  
+}
+.primerSeccion{
+    background: rgb(153, 51, 153);
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+   position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    
+    background: rgb(14, 182, 171);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.div_card{
+    width: 200px;
+    min-width: 200px;
+    padding: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: 10px;
+}
+.menu_item{
+    display: inline-block;
+    font-size: 17px;
+    line-height: inherit;
+    letter-spacing: 0;
+    margin-top: 8px;
+    /*text-align: justify;*/
+}
+
+.item {
+    padding: 18px 10px;
+    text-decoration: none;
+    font-weight: 70;
+    color: #FFF;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.menu_escritorio{
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-top: 3px;
+    text-align: justify;
+}
+
